@@ -3,6 +3,18 @@ Deep learning for Knowledge-Graph
 # 探索认知智能系列[趋势：数据＋知识]   
 ## 包括知识获取、知识库构建、基于知识库的问答系统系列技术研究与应用  
 ---
+## 目录结构
+- Algorithm-code 知识图谱相关算法实现  
+- datasets 相关数据集  
+- my summary 主要以PPT总结  
+- NLP&KG基础 自然语言处理与知识图谱基础知识，主要包括词表示、构建等。  
+- SmartInteraction 主要涉及对话系统的实践。是一个长期的规划。  
+- 认知科学 主要扩展知识了解  
+- 事理图谱 以事件为中心进行图谱建立  
+- 文本相似度 主要解决在对话中Query和Answer的匹配  
+- 知识存储 主要是知识库的建立  
+- 知识构建　主要涉及实体、关系的抽取等  
+---
 [![](https://img.shields.io/badge/技术集成项目-小智v1.0-brightgreen.svg)](https://github.com/lihanghang/Knowledge-Graph)  
 <font color=red size=5>[小智交互平台](./SmartInteraction/)</font>  
 --- 
@@ -11,6 +23,7 @@ Deep learning for Knowledge-Graph
 2. [An Attentive Survey of Attention Models](http://naotu.baidu.com/file/03d4fb82f0c3deec199e61a8d8711b22)  
 3. [BERT:Bidirectional Encoder Representations from Transformers](http://naotu.baidu.com/file/83095ddac345831a78c2fd375a33f6e6?token=367ecbf6095b0a9e)  
 4. [ERNIE:Enhanced Representation through Knowledge Integration](http://naotu.baidu.com/file/ce7fddcdb9a77417267dc9e1292649fc?token=3883492da71ba7ab)  
+5. [ERNIE: Enhanced Language Representation with Informative Entities](http://naotu.baidu.com/file/3d008a634578596748678f832389dfd1?token=0db6712fd8dbe238)  
 ### 研究总结  
 1. [知识图谱综述](http://naotu.baidu.com/file/cffcb478adf07522b64eddb8914c0884?token=01df87c5af357993)   
 2. [知识图谱的挑战](http://naotu.baidu.com/file/9e3257e54c15c6607fa9d5d40111e1bc?token=d8acd3739ba44f6b)  
@@ -19,6 +32,19 @@ Deep learning for Knowledge-Graph
 5. [KBQA](http://naotu.baidu.com/file/5c17a01de73d972501d8b3cd187908cb?token=b9a47b442d527efe)  
 6. [赵汀阳：人工智能的自我意识何以可能？1-3](http://m.aisixiang.com/data/114807.html)
 7. [**NLP University 开张大吉**](http://blog.sciencenet.cn/blog-362400-944348.html)--李维老师，Simon Fraser University，博士  
+#### 知识图谱相关会议
+| 编号        | 名称    | 等级    | 类型| 领域|
+| :--------:   | :-----  | :-----  |:-----  |:-----  |
+| 1          | ACL     | A类 |  学术会议|人工智能|
+| 2          | CVPR    | A类 |  学术会议|人工智能|
+| 3          |ICML     | A类 |  学术会议|人工智能|
+| 4          | IJCAI   | A类 |  学术会议|人工智能|
+| 5          |EMNLP    | B类 |  学术会议|人工智能|
+|6           |CIKM     | B类 |  学术会议|数据库／数据挖掘／内容检索|
+|7           |AAAI     | A类 |  学术会议|人工智能|
+|8           |SIGKDD   | A类 |  学术会议|数据库／数据挖掘／内容检索|
+|9           |TKDE     | A类 |  学术期刊|(数据库/数据挖掘/内容检索)|
+|10          |SIGIR    | A类 |  学术会议|数据库／数据挖掘／内容检索|
 #### 事理图谱  
 1. [事理图谱综述](http://naotu.baidu.com/file/528dabd616383f39971be09020fc9cab?token=1d18d940bf63ea42)
 
@@ -66,6 +92,8 @@ Deep learning for Knowledge-Graph
 | 7          |   deepdive   |斯坦福大学的开源知识抽取工具（三元组抽取）， 支持python|
 | 8          |   FudanDNN-NLP3.0   |用于中文分词、命名识别、词性标注、句子分类、语义分析、知识库访问、对话问答,支持Java----复旦大学计算机学院机器人研究实验室所开发的基于深度学习的中文自然语言处理工具|
 | 9          |   Stanford CoreNLP   |可进行多语言的词性标注器、命名实体的识别器、解析器（句子与语法结构）、指代消解器（就是在篇章中确定代词指向哪个名词短语的问题）、情感分析器、   引导模式学习器、开放信息提取器， Java/Python----- Stanford CoreNLP是斯坦福大学的自然语言处理工具包,工具包需要java的支持|
+
+
 #### 图存储与查询工具
 | 编号        | 名称    |  主要功能  |
 | --------   | -----:  | :----:     |
@@ -103,8 +131,8 @@ Deep learning for Knowledge-Graph
 --- 
 
 #### 比赛
-1. ATEC蚂蚁开发者大赛之学习赛--NLP之问题相似度计算--2019-3  
-2. 百度2019语言与智能技术竞赛之第二赛道--[知识驱动对话](http://lic2019.ccf.org.cn/talk)--2019-4  
+1. ATEC蚂蚁开发者大赛之学习赛--NLP之问题[相似度计算](https://github.com/lihanghang/Knowledge-Graph/tree/master/Algorithm-code/Text-Similarity)--2019-3  
+2. 百度2019语言与智能技术竞赛之第二赛道--[知识驱动对话](https://github.com/lihanghang/Knowledge-driven-dialogue)--2019-4  
 3. SMP2019中文人机对话技术评测（ECDT）,子任务：**领域分类、意图识别和语义槽填充**--[Task1:自然语言理解评测](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650794638&idx=1&sn=bbba4f2c4b62ccc1bef59d8f12b2c56f&chksm=8f477f65b830f673c76cd1907b4a044a5390bd7f0a6ca28d8bde2dcacd47c57207ffc8e59643&mpshare=1&scene=1&srcid=#rd)--2019-5  
 ---
 #### 思考
@@ -113,6 +141,7 @@ Deep learning for Knowledge-Graph
 - 个人觉得一套爬虫系统可以为知识库提供动态更新的知识来源。
 - 结合知识/常识的对话系统，更具准确性和多样性，是一个值得研究的方向，可让机器引导用户进行话题的交流。如上面比赛２就是这一方向的应用。　　
 - <strong>自然语言处理/理解目前门槛已经高升到了BERT啦,在绝大数任务中基本都是必提的，基于Transformer做编码器！如何在模型训练中融入知识（可以是多模态）已是目前研究的热点方向，如百度最近提出的ERNIE表示模型就引入这一思想，也在下游任务中取得了不错的效果。</strong>  
+- 知识图谱的表示研究问题（Knowledge Graph Embedding, KGE)是当前的一个研究热点。  
 ---
 #### <strong>说明<strong>
 - 以上内容均为个人在学习过程的相关整理（包含互联网内容、个人整理笔记等），希望对研究学习认知智能领域的小伙伴有帮助。  
@@ -122,4 +151,4 @@ Deep learning for Knowledge-Graph
 - [CSDN](https://blog.csdn.net/lihangll)  
 - [个人网站](https://lihanghang.top/)  
 - 邮箱：hanghangli19@126.com  
-Updated on May 27, 2019  
+Updated on June 9, 2019  
